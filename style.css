@@ -1,0 +1,82 @@
+/* Professional color palette */
+:root {
+    --primary-color: #003f92;
+    --secondary-color: #1e6ceb;
+    --accent-color: #fbbc04;
+    --background-color: #f8f9fa;
+    --text-color: #202124;
+    --border-color: #dadce0;
+    --shadow-color: rgba(60, 64, 67, 0.1);
+}
+
+/* Metric Container Styling */
+[data-testid=metric-container] {
+    box-shadow: 0 2px 6px var(--shadow-color);
+    padding: 15px;
+    border-radius: 8px;
+    background: white;
+    transition: transform 0.2s ease;
+}
+
+[data-testid=metric-container]:hover {
+    transform: translateY(-2px);
+}
+
+/* Plot Container Styling */
+.plot-container>div {
+    box-shadow: 0 2px 6px var(--shadow-color);
+    padding: 15px;
+    border-radius: 8px;
+    background: white;
+    margin: 10px 0;
+}
+
+/* Expander Styling */
+div[data-testid="stExpander"] {
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+div[data-testid="stExpander"] div[role="button"] p {
+    font-size: 1.1rem;
+    color: var(--text-color);
+    font-weight: 500;
+    padding: 5px 0;
+}
+
+/* Sidebar Styling */
+[data-testid=stSidebar] {
+    background-color: white;
+    border-right: 1px solid var(--border-color);
+}
+
+.sidebar-content {
+    color: var(--text-color);
+}
+
+/* Multiselect Styling */
+.stMultiSelect {
+    background-color: white;
+    border-radius: 6px;
+}
+
+/* Progress Bar Styling */
+.stProgress > div > div > div > div {
+    background-image: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    border-radius: 10px;
+}
+
+/* General Layout Improvements */
+.stApp {
+    background-color: var(--background-color);
+}
+
+/* Card Styling */
+div[data-testid="stVerticalBlock"] > div[style*="flex-direction: column"] > div[data-testid="stVerticalBlock"] {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px var(--shadow-color);
+    margin: 0.5rem 0;
+}
