@@ -52,8 +52,8 @@ database = "myDb"
 
 ---
 
-#### ✅ **How to Run the App**
-```bash
+✅ **How to Run the App**
+
 # From the root directory:
 streamlit run Home.py
 
