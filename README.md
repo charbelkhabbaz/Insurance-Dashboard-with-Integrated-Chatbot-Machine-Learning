@@ -98,6 +98,8 @@ the chatbot
 ![Capture8](https://github.com/user-attachments/assets/8ba65574-f48f-4bb6-87a8-b25e924c674a)
 ![Capture9](https://github.com/user-attachments/assets/b2a46759-ce9e-4a62-8a10-754ba5c29f59)
 
+![Capture10](https://github.com/user-attachments/assets/9e7cc470-2ffd-4d03-afca-c5e5af3670ac)
+
 
 
 
