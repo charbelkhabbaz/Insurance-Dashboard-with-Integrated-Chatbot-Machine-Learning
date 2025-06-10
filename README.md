@@ -10,7 +10,7 @@ and renewal prediction.
 - 📈 Interactive dashboard with filters and KPIs
 - 💬 Natural language chatbot for querying database
 - 🤖 Machine Learning models:
-  -Investment Prediction (Regression)
+  *Investment Prediction (Regression)
   -Risk Classification
   -Customer Segmentation (KMeans)
   -Anomaly Detection (Isolation Forest)
