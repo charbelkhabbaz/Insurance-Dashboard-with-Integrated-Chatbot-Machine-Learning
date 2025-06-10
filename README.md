@@ -93,19 +93,11 @@ here is an example of the Anomaly Detection:
 ![Capture6](https://github.com/user-attachments/assets/23ae48de-5914-476b-acdf-f5cb34d79e2c)
 
 💬 Chatbot Integration
-The chatbot is designed to simplify user interaction with the data. Users can ask any natural language question related to the insurance dataset, and the chatbot will return meaningful answers in real time.
-
-The chatbot is connected to the MySQL database (myDb), where the data is stored.
-It works by:
-Understanding the user's question
-Translating it into an SQL query
-Executing the query on the database
-Returning the results in natural language
-🧠 Dual Output Format:
-For non-technical users – The answer is explained in plain language with meaningful context.
-For technical users – The chatbot also displays the exact SQL query used, providing full transparency and allowing developers to reuse or verify the query.
+The chatbot is designed to simplify interaction with the insurance dataset by allowing users to ask any natural language question related to the data. It connects to the MySQL database (myDb) and works by understanding the user's question, converting it into an SQL query, executing it, and then transforming the result back into a natural language response. The answer is presented in two formats: one for non-technical users, where the response is explained in clear, understandable terms with helpful context; and one for technical users, where the chatbot also shows the exact SQL query used to retrieve the answer. This dual output makes the chatbot both user-friendly and developer-friendly, bridging the gap between business users and technical professionals.
 This makes the chatbot both user-friendly and developer-aware, bridging the gap between business users and technical professionals.
+
 ![Capture8](https://github.com/user-attachments/assets/8ba65574-f48f-4bb6-87a8-b25e924c674a)
+
 ![Capture9](https://github.com/user-attachments/assets/b2a46759-ce9e-4a62-8a10-754ba5c29f59)
 
 ![Capture10](https://github.com/user-attachments/assets/9e7cc470-2ffd-4d03-afca-c5e5af3670ac)
