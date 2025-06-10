@@ -10,11 +10,11 @@ and renewal prediction.
 - 📈 Interactive dashboard with filters and KPIs
 - 💬 Natural language chatbot for querying database
 - 🤖 Machine Learning models:
-  - Investment Prediction (Regression)
-  - Risk Classification
-  - Customer Segmentation (KMeans)
-  - Anomaly Detection (Isolation Forest)
-  - Renewal Prediction (Logistic Regression)
+  -Investment Prediction (Regression)
+  -Risk Classification
+  -Customer Segmentation (KMeans)
+  -Anomaly Detection (Isolation Forest)
+  -Renewal Prediction (Logistic Regression)
 - 🔗 MySQL backend for real data queries
 - 📊 Plotly charts and user-driven insights
 
