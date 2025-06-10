@@ -56,6 +56,7 @@ streamlit run Home.py
 - The dashboard loads insurance data from a MySQL table (`insurance`).
 - Users can explore the data using dropdown filters and see summaries by region, location, etc.
 - The "ML Page" allows users to train and test models:
+  
   -Users select ML task from a dropdown (investment prediction, risk analysis, etc.)
   
   -Models are trained using scikit-learn with visual feedback (feature importance, MSE, etc.)
@@ -91,7 +92,19 @@ here is an example of the Anomaly Detection:
 ![Capture5](https://github.com/user-attachments/assets/bed3c8bc-e262-4c2e-acfb-6de8fd16d693)
 ![Capture6](https://github.com/user-attachments/assets/23ae48de-5914-476b-acdf-f5cb34d79e2c)
 
-the chatbot
+💬 Chatbot Integration
+The chatbot is designed to simplify user interaction with the data. Users can ask any natural language question related to the insurance dataset, and the chatbot will return meaningful answers in real time.
+
+The chatbot is connected to the MySQL database (myDb), where the data is stored.
+It works by:
+Understanding the user's question
+Translating it into an SQL query
+Executing the query on the database
+Returning the results in natural language
+🧠 Dual Output Format:
+For non-technical users – The answer is explained in plain language with meaningful context.
+For technical users – The chatbot also displays the exact SQL query used, providing full transparency and allowing developers to reuse or verify the query.
+This makes the chatbot both user-friendly and developer-aware, bridging the gap between business users and technical professionals.
 ![Capture8](https://github.com/user-attachments/assets/8ba65574-f48f-4bb6-87a8-b25e924c674a)
 ![Capture9](https://github.com/user-attachments/assets/b2a46759-ce9e-4a62-8a10-754ba5c29f59)
 
