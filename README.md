@@ -10,11 +10,7 @@ and renewal prediction.
 - 📈 Interactive dashboard with filters and KPIs
 - 💬 Natural language chatbot for querying database
 - 🤖 Machine Learning models:
-  *Investment Prediction (Regression)
-  -Risk Classification
-  -Customer Segmentation (KMeans)
-  -Anomaly Detection (Isolation Forest)
-  -Renewal Prediction (Logistic Regression)
+  -Investment Prediction (Regression)/ Risk Classification / Customer Segmentation (KMeans) / Anomaly Detection (Isolation Forest) / Renewal Prediction (Logistic Regression)
 - 🔗 MySQL backend for real data queries
 - 📊 Plotly charts and user-driven insights
 
@@ -60,8 +56,9 @@ streamlit run Home.py
 - The dashboard loads insurance data from a MySQL table (`insurance`).
 - Users can explore the data using dropdown filters and see summaries by region, location, etc.
 - The "ML Page" allows users to train and test models:
-  - Users select ML task from a dropdown (investment prediction, risk analysis, etc.)
-  - Models are trained using scikit-learn with visual feedback (feature importance, MSE, etc.)
+  -Users select ML task from a dropdown (investment prediction, risk analysis, etc.)
+  
+  -Models are trained using scikit-learn with visual feedback (feature importance, MSE, etc.)
 - The chatbot uses a SQL generator (LangChain or custom parser) to convert natural language to SQL queries and return real results from the DB than convert back the response to a human friendly language.
 
  🧾 Dashboard Overview
