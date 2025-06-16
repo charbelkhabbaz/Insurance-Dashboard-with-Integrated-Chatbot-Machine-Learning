@@ -1,4 +1,4 @@
-# Insurance-Dashboard-with-Integrated-Chatbot-Machine-Learning
+# Insurance Dashboard with Integrated Chatbot & Machine-Learning
 **Short Description**
 
 An interactive Streamlit dashboard for exploring and analyzing insurance policy data,
@@ -10,7 +10,11 @@ and renewal prediction.
 - 📈 Interactive dashboard with filters and KPIs
 - 💬 Natural language chatbot for querying database
 - 🤖 Machine Learning models:
-  -Investment Prediction (Regression)/ Risk Classification / Customer Segmentation (KMeans) / Anomaly Detection (Isolation Forest) / Renewal Prediction (Logistic Regression)
+  - Investment Prediction (Regression)
+  - Risk Classification
+  - Customer Segmentation (KMeans)
+  - Anomaly Detection (Isolation Forest)
+  - Renewal Prediction (Logistic Regression)
 - 🔗 MySQL backend for real data queries
 - 📊 Plotly charts and user-driven insights
 
@@ -23,7 +27,7 @@ and renewal prediction.
 - LangChain (for chatbot logic)
 - MySQL
 
-  **Installation instructions**
+**Installation instructions**
 # 1. Clone the repo
 clone the project
 change directory to the project
@@ -46,9 +50,7 @@ user = "root"
 password = "yourpassword"
 database = "myDb"
 
----
-
-**How to Run the App**
+**How to Run the Project**
 
 # From the root directory:
 streamlit run Home.py
@@ -63,12 +65,12 @@ streamlit run Home.py
 - The chatbot uses a SQL generator (LangChain or custom parser) to convert natural language to SQL queries and return real results from the DB than convert back the response to a human friendly language.
 
  🧾 Dashboard Overview
-This is the main page of the dashboard, where users can interact with the insurance dataset in real time.
+This is the main page of the dashboard, where users can interact with the insurance dataset in **REAL TIME**.
 A "View Dataset" section allows users to explore the full table stored in the MySQL database.
 Users can filter the data dynamically by:
 Region/Location/Construction type/Specific columns
 
-🟡 Important: All visualizations and charts in the dashboard are automatically updated based on the filters applied — not just the table view.
+🟡 Important: All visualizations and charts in the dashboard are automatically updated based on the filters applied, not just the table view.
 ⚡ Real-Time Data:
 The dashboard fetches data live from the MySQL database using SQL queries. If any data in the database is updated, the dashboard reflects the changes.
 ![Capture1](https://github.com/user-attachments/assets/ef6883de-4b8f-4b96-b796-05c498aa6b9b)
